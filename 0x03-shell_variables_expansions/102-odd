@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d" "- - | cut " " -f 1
+while read line; do echo "$line"; read line; done
