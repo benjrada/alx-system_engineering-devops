@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Connecting to a server using ssh and key stored in ~ssh/holberton
+# Connects to server 18.205.38.219 with key in ~/.ssh/school
 
-ssh -i ~/.ssh/school ubuntu@3a5e8dab4187.36545ba6.alx-cod.online
+ssh -i ~/.ssh/school ubuntu@18.205.38.219
